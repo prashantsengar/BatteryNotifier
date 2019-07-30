@@ -1,4 +1,4 @@
-win10toast
-pypiwin32
-setuptools
+win10toast; platform_system == "Windows"
+pypiwin32; platform_system == "Windows"
+setuptools; platform_system == "Windows"
 psutil
